@@ -48,7 +48,7 @@
 	
 	<select id="selectByUserNameAndPassword" resultType="com.example.spring02.domain.User">
 		select * from USERS
-		where USERNAME = #{username}, and PASSWORD = #{password}
+		where USERNAME = #{username} and PASSWORD = #{password}
 	</select>
 	
 </mapper>
